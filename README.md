@@ -1,2 +1,2 @@
-# STM32-Project_Template
-This is an STM32 engineering file module developed based on the Keil5 standard library core_cm3 kernel.
+# Project Template
+This is an STM32 engineering file module developed based on the Keil5 standard library core_cm3 kernel.For the STM32F103C8T6 that STM32 is often used in daily development, its core uses the 32-bit CPU of the ARM CortexTM-M3 series, which works at 72MHz, has built-in 64KByte Flash and 20KByte SRAM storage resources, and has a variety of peripherals, which has the characteristics of high performance, low power consumption, easy development and strong anti-interference ability.
