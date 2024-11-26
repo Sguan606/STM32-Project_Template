@@ -1,11 +1,9 @@
 #include "stm32f10x.h"                  // Device header
 
-/**
-  * 函    数：LED初始化
-  * 参    数：无
-  * 返 回 值：无
-  */
-void LED_Init(void)
+//SGUAN初始化,这个地方是瞎写的;
+//我也不知道为啥要写SGUAN这个模块;
+//后面可能会加一些功能到这地方吧;
+void SGUAN_Init(void)
 {
 	/*开启时钟*/
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);		//开启GPIOA的时钟
