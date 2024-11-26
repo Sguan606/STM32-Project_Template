@@ -2,7 +2,7 @@
 #define __SGUAN_H
 
 
-void LED_Init(void);
+void SGUAN_Init(void);
 
 
 #endif
