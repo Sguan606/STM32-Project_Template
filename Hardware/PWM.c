@@ -38,8 +38,8 @@ void PWM_Init(void)
 
 
 
-void PWM_SetCompare1(uint16_t compare)
+void PWM_SetCompare2(uint16_t compare)
 {
 
-    TIM_SetCompare1(TIM2,compare);
+    TIM_SetCompare2(TIM2,compare);
 }
