@@ -5,6 +5,6 @@ This is an STM32 engineering file module developed based on the Keil5 standard l
 
 In this project, we wrote a number of peripheral boot files that will be called by the STM32 project in the /Hardware file, including but not limited to software simulation and hardware peripheral read/write for I2C and SPI communication, USART serial port, TIM clock, PWM output and input capture functions.
 
-在这个项目中，我们在 /Hardware 文件中编写了大量将由 STM32 项目调用的外设启动文件，包括但不限于用于 I2C 和 SPI 通信的软件仿真和硬件外设读/写、USART 串口、TIM 时钟、PWM 输出和输入捕获功能。
+在这个项目中，我们在 /Hardware 文件中编写了大量可以用于调用 STM32 外设启动的项目文件，包括但不限于用于 I2C 和 SPI 通信的软件仿真和硬件外设读/写、USART 串口、TIM 时钟、PWM 输出和输入捕获功能。
 
 You can safely use IDE editing tools such as Keil5 or VsCode to delete the program, and then call the peripheral functions that we have reserved in the main program.
